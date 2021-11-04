@@ -30,5 +30,6 @@ public class ParkingSystem implements IParking {
 		Integer carType=in.nextInt();
 		System.out.println("是否还有停车位:"+ps.addCar(carType));
 		in.close();
+		System.out.println("这是一个小测试");
 	}
 }
